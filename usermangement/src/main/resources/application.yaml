@@ -1,0 +1,15 @@
+server:
+  port: 8000
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/myApp
+    username: postgres
+    password: Aman12@aman
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    properties:
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+
